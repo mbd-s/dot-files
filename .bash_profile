@@ -5,6 +5,8 @@ eval "$(rbenv init -)"
 
 alias be='bundle exec'
 alias gti='git'
+alias cat='ccat --bg=dark'
+alias brewski='brew update && brew upgrade && brew cleanup'
 
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWCOLORHINTS=1
