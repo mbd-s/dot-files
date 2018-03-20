@@ -1,0 +1,10 @@
+[user]
+        name = Michael Silverberg
+        email = michaelbsilverberg@gmail.com
+[core]
+        excludesfile = /Users/ms/.gitignore_global
+[alias]
+        st = status
+        co = checkout
+        ck = checkout
+[pager]
