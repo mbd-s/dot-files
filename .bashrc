@@ -3,6 +3,9 @@
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
 alias be='bundle exec'
 alias gti='git'
 alias cat='ccat --bg=dark'
