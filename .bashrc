@@ -21,6 +21,8 @@ export GIT_PS1_SHOWSTASHSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
 export GIT_PS1_SHOWCOLORHINT=1
 
+export DISABLE_SPRING=1
+
 export PROMPT_COMMAND='__git_ps1 "\[\e[2m\]\A\[\e(B\e[m\] \w" " \\\$ "'
 source ~/.git-completion.bash
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
