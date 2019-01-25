@@ -10,6 +10,8 @@ alias be='bundle exec'
 alias gti='git'
 alias cat='ccat --bg=dark'
 alias brewski='brew update && brew upgrade && brew cleanup'
+alias openbash="vim $HOME/.bashrc"
+alias sourcebash="source $HOME/.bashrc"
 
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWCOLORHINTS=1
