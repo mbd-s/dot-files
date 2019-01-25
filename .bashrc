@@ -14,6 +14,7 @@ alias openbash="vim $HOME/.bashrc"
 alias sourcebash="source $HOME/.bashrc"
 
 source ~/.git-prompt.sh
+export CLICOLOR=1
 export GIT_PS1_SHOWCOLORHINTS=1
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWSTASHSTATE=1
