@@ -13,6 +13,9 @@ alias cat='ccat --bg=dark'
 alias brewski='brew update && brew upgrade && brew cleanup'
 alias openbash="vim $HOME/.bashrc"
 alias sourcebash="source $HOME/.bashrc"
+alias ..="cd .."
+alias ...="cd ../.."
+alias cd..="cd .."
 
 source ~/.git-prompt.sh
 export CLICOLOR=1
