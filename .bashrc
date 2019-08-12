@@ -6,6 +6,9 @@ eval "$(rbenv init -)"
 
 export PATH=/Users/ms/Library/Python/3.7/bin:$PATH
 
+export GOPATH=/Users/ms/src/go
+export PATH=$GOPATH/bin:$PATH
+
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
