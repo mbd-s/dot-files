@@ -16,6 +16,8 @@ alias sourcebash="source $HOME/.bashrc"
 alias ..="cd .."
 alias ...="cd ../.."
 alias cd..="cd .."
+alias ls='ls -a' # show hidden files by default
+alias lsh='ls -ld .?*' # show only hidden files
 
 source ~/.git-prompt.sh
 export CLICOLOR=1
