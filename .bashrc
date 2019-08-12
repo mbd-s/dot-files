@@ -18,6 +18,7 @@ alias ...="cd ../.."
 alias cd..="cd .."
 alias ls='ls -a' # show hidden files by default
 alias lsh='ls -ld .?*' # show only hidden files
+alias audit='bundle-audit check --update' # update bundle-audit when checking
 
 source ~/.git-prompt.sh
 export CLICOLOR=1
